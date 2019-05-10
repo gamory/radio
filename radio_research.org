@@ -1,0 +1,209 @@
+* Antennas
+** GAP Antenna
+* Equations
+** Find length of half wave dipole for a given frequency
+Divide 468 by the frequency in MHz, which will yield the length in feet.
+For example, on a 14 MHz signal:
+
+468 / 14 = 33.43' 
+** Find wavelength of a given frequency signal
+Divide the speed of light (300,000,000 meters/sec), by the frequency in Hz, to get the length in meters.
+Example for 14 MHz:
+
+300,000,000 / 14,000,000 = 21.43m
+
+Because of the transitive properties of math, you can scale this for MHz frequencies as:
+300 / 14 = 21.43m
+
+Or for KHz as:
+300,000 / 14,000 = 21.43m
+* Morse code
+Don't attempt to write it down.
+Practice at 30+ WPM, you can put long spacing, but keep the character speed at least that high
+It's good to practice with your eyes shut
+* Morse keys
+** Retailers
+American Morse Equipment - http://americanmorse.com/index.htm
+Bencher, sold to Vibroplex - http://www.vibroplex.com/
+Kent - http://www.kent-engineers.com/index.htm
+** Straight keys
+** Single paddle
+** Double paddle
+* Notes
+Azimuthal projection maps are a good choice for a ham shack, since they are proportional to actual distances.
+The 20m band usually supports world-wide propogation during daylight hours.  This is a great choice for DX.
+Interference in speaker wires from ham operation can often be cleared up by applying a bypass capacitor across the speaker wires to absord the high frequency.  You can also reduce this with a ferrite choke on the audio cable.
+Radio waves propogate at 300,000,000 meters/second.  You can divide this by the frequency in Hz to get how far (in meters) a signal moves in one cycle.  This is the wavelength.  This is why a higher frequency is a shorter wavelength.
+Radio bands are noted in wavelength NOT frequency.  Be careful of this in tests.
+A general class license allows all amateur frequency privledges on 160m, 60m, 30m, 17m, 12m, and 10m (look for answers that mention 60 and 30).  General also allows 28.020 Mhz, 28.350 MHz, and 28.550 MHz, the answer when these are mentioned is ALL.
+If asked what band prohibits phone operation or image transmission, it is 30m.
+In the 60m band (~5 MHz), communication is restricted to specific channels instead of a frequency range.
+Where a band only allows general privledges on part of it, it will be the upper frequencies.
+The US is in ITU region 2.  Outside of this region, the frequency allocations may be different.
+The maximum tower height allowed without FAA permission is 200 feet above ground. (Unless you are by an airport).
+The power limit for beacon stations is 100 watts.
+Autonomous beacons are allowed on 28.2-28.3 MHz, and also in other bands, typically near the center of the band plan.
+You can not use abbreviations unless they do not obscure the meaning of a message.  No ciphers are allowed.  It must be obvious what you are sending.
+For general class licenses, the maximum transmit power on the 12m band, 28 MHz group, and 1.8 MHz group is 1500 watts.  It's 1500 watts everywhere except 10.14 MHz and 60m.
+On 10.14 MHz, the maximum transmit power is 200 watts.
+On the 60m band, the maximum transmit power is 100 watts ERP, with regards to a dipole.  Due to this restriction, you are REQUIRED to keep a record of your antenna gain if using this band.
+On the 60m band, if using SSB (in USB), the maximum bandwidth is 2.8 KHz.
+If using RTTY or data sending on the 20m band, the maximum rate is 300 baud
+If using RTTY or data sending below 28 MHz, the maximum rate is 300 baud
+If using RTTY or data sending on the 10m band, the maximum rate is 1200 baud
+If using RTTY or data sending on the 2m band, the maximum rate is 19.6 kbaud
+If using RTTU or data sending on the 1.25m or 70cm bands, the maximum rate is 56kbaud
+The minimum age to be a VE is 18, non-US citizens may become a VE if old enough, and if they hold an FCC granted general license (or above)
+If a VE has a general class license, they can only administer tests to technicians.
+To administer a technician class license, at least three general class or higher VEs must observe the examination.
+When you pass a test, you receive a CSCE, which is good for 365 days.  This is your proof while your VE submits the data to the FCC for processing
+You can allow an unlicensed person to broadcast under your license restrictions if you are present, and it is only amateur radio related, remarks of a personal character, or in emergencies.
+No person that have had their license revoked is allowed to broadcast, even with a licensed user.
+The maximum bandwidth for an autonomous digital station is 500 Hz, which is about the same as a CW signal
+Amateurs share part of the 2.4 GHz area with Wi-Fi, and can use that for AREDN
+If using modified Wi-Fi equipment, the maximum transmit power is 10 watts.
+When using ANY digital mode, you are always restricted by FCC Part 97 regulations.  No exceptions for digital.
+You should avoid broadcasting on beacon use frequencies, which are 14.1 MHz, 18.110 MHz, 21.25 MHz, 24.93 MHz, 28.2 MHz.
+In general, LSB is used for lower frequency (160m, 75m, 40m), and USB is used for upper (12m, 17m, 14 MHz, VHF, UHF)
+To break in on a call in voice modes, say your callsign once, and wait for acknowledgement, (if it's an emergency situation, say "BREAK, BREAK, BREAK, <callsign>")
+Outside of an FCC declared emergency, (and outside of bands where a given license has priority), no one has greater priority than anyone else
+It is polite to move off a frequency if asked, but outside of the above, you are NOT required to.
+If propogation changes cause two conversations to run over the top of each other, it is polite to try and solve that amicably.
+Minimum seperation for CW is 150-500 Hz (Note that this is basically the bandwidth for this mode)
+Minimum seperation for SSB is 3 KHz. (Note that this is basically the bandwidth for this mode)
+In the lower 48 states of the USA, 50.1 MHz-50.125 MHz is reserved for DX use
+Since RACES is made from volunteers, all members transmitting MUST have an FCC issued license.
+During an emergency situation, any licensed operator may use any means to assist another station, including power levels and frequencies not normally allowed.
+Along the same lines, in an emergency, you may transmit on whatever frequency you feel is most likely to get you help.
+There is a Volunteer Monitoring Program or people formally enlisted to monitor for rules violations, and let the station know if they have broken rules
+As part of their training, they participate in hidden transmitter hunts, to learn skills for direction finding.
+During the summer, lower HF frequencies often have large amounts of atmospheric noise, due commonly to lighting, which can cause interference thousands of miles away
+The most common frequency shift used for RTTY is 170 Hz.
+When sending RTTY via AFSK, always use LSB.
+If sending RTTY via a weak signal mode such as JT65, JT9, or FT8, use USB
+FT8 is not a conversational mode, and is usually only used for callsign exchange, grid location, and signal reporting.  When using it, the computer time must be accurate within 1 second.
+PACTOR is a method using modems.  It is good policy to monitor first to see if it is being used on a frequency.  PACTOR is only possible between two people.  The test ansers how to join in a 3rd.  It cannot be done.
+WINMOR is an e-mail program that sends over PACTOR
+Digital is usually the middle of bands (with CW generally low, and SSB generally high)
+Digital is allowed on 14.070 MHz-14.112 MHz in the 20m band
+Digital is allowed on 3570 KHz-3600 KHz on the 80m band
+An interesting note here is that all digital methods start on a "70" frequency (14.0(70), 35(70)
+PSK31 transmission is commonly found below the RTTY segment near 14.070 MHz.
+Common serial port connections for radio use are DE-9 (not DB-9)
+The higher the amount of sunspots, the better change of good propagation at HF.
+Along the same line, lower solar activity also reduces propogation of higher frequencies (15m, 12m, 10m).
+Sudden ionospheric disturbances disrupt lower frequencies more than high frequencies, since they are more likely to be absorbed
+Geomagnetic storms effect the magnetosphere, and have a greater chance of disturbing transmissions near the Earth's poles
+Charged particles reaching the Earth (from solar coronal holes for instance) disturb signals as well.
+Auroras are natually bad for HF, but can actually reflect VHF
+Increased UV and X-ray radiation from solar flares effect propagation about 8 minutes after they happen, since that is how long they take to travel from the Sun to the Earth
+Charged particles, since they are particles instead of energy, usually effect propagation about 20-40 hours after they are emitted due to the slower movement
+Solar flux is a measurement of solar radiation
+The A-index indicates the long term stability of Earth's geomagnetic field
+The K-index indicates the short term stability of Earth's geomagnetic field
+Propogation varies in a roughly 28 day cycle due to the Sun's rotation on it's axis.  Remember that the Sun's (not the Earth's) rotation can greatly effect propagation. 
+* References
+** Glossary
+AFSK - Audio Frequency Shift Keying, a means of generating tones
+ALC - Automatic Level Control, a circuit used to scale gain/drive back to prevent distortion.  This is set via the microphone gain control
+AM - Amplitude Modulation, a broadcast method which uses varying amplitude in it's two side bands to convey information.  Sends very far, but requires a lot of power
+AREDN - Amateur Radio Emergency Data Network, a means of using devices in the 2.4 GHz range, but you cannot use it to speak with someone who is not licensed by the FCC.  This is usually made from modified Wi-Fi equipment
+CSCE - Certificate of Successful Completion of Exam, a cert granted when you pass an amateur radio test in the US, used as proof until the FCC updates your records, valid for 365 days
+CTCSS - Continuous Tone-Coded Squelch System, a means to allow through only communications which have a specific low frequency tone broadcast along with them
+CW - Continuous Wave, usually refers to use of Morse code
+DCS - Digital-Coded Squelch, a digital means of restricting what communication is listened to
+ERP - Effective Radiated Power, the sum total of amplifier and antenna gain.  This means you need to take into account the gain on the antenna, so that you are not pushing more wattage to it than is needed to stay below limits.
+FM - Frequency Modulation, a broadcast method which uses varying frequency to convey information
+FT8 - A signal modulation technique
+ITU - International Telecommunications Union, the body that breaks down ITU regions, North and South America are region 2
+JT65 - A signal modulation technique
+JT9 - A signal modulation technique
+LSB - Lower Side Band, SSB using the lower side of the frequency
+NVIS - Near Vertical Incidence Skywave, an antenna setup where a dipole is placed 1/10-1/4 wavelength above ground, which causes most of it's radiation to be at a very high angle, good for short distance communication (up to a few hundred kilometers).
+PACTOR - A communication method
+PEP - Peak Envelope Power, a measurement of the maximum output power
+PSK31 - A digital communications method
+RACES - Radio Amateur Civilian Emergency Service, a volunteer group created by FEMA for emergency communications coordination
+RTTY - Radio TeleTYpe, a means of sending characters via DTMF tones.  Uses more bandwidth the faster it broadcasts, measured in baud (bits/sec)
+SID - Sudden Ionospheric Disturbance, a term for things like solar flares which impact low frequency propagation
+SSB - Single Side Band, a broadcast method using only one sideband, and no carrier, this is the most common voice mode in use for amateur radio today
+USB - Upper Side Band, SSB using the upper side of the frequency
+VE - Volunteer Examiner, an accredited examiner, who is usually who will administer FCC tests
+VMP - Volunteer Monitoring Program, a formally recognized group of people that monitor for rules violations, and notify stations of violations
+WINMOR - An e-mail client that sends over PACTOR
+WinLink - A system that uses internet to communicate as well as radio
+WSPR - Weak Signal Propagation Reporter, a very low power digital mode for determining HF propagation
+** Morse code
+** Prosigns
+These are sent as one continuous block, without inter-character spacing
+
+AR - End of message, stands for all remitted, common to end a formal message
+AS - Standby
+BK - Invite receiving station to transmit
+BT - Pause; break for text
+KA - Beginning of message
+KN - End of transmission
+CL - Going off the air (clear)
+CQ - Calling any station
+K  - Go; Invite any station to transmit
+R  - All received
+SK - End of contact, sent before next call
+VE - Understood
+** Q signals/codes
+Though these are mostly used as shortcodes in CW, they do bleed into vocal and 
+typographical use sometimes as well, such as:
+"My QTH is <location>"
+"QRZed?" (who just spoke?)
+"I'm getting some QRN"
+
+QRG - As statement : Your exact frequency is <>
+      As question  : What is your exact frequency?
+QRL - As statement : This frequency is busy
+      As question  : Is this frequency busy? (A common response is "R" for roger, or "C" for confirm, saying that it is indeed busy)
+QRM - As statement : Your transmission is being interfered with <optional code>, where that code is 1 to 5, 1-nil, 2-slightly, 3-moderately, 4-severely, 5-extremely
+      As question  : Is my transmission being interfered with?
+QRN - As statement : I am having trouble with static <optional code>,  where that code is 1 to 5, 1-nil, 2-slightly, 3-moderately, 4-severely, 5-extremely
+      As question  : Am I having trouble with static?
+QRO - As statement : Increase power
+      As question  : Should I increase power?
+QRP - As statement : Decrease power
+      As question  : Should I decrease power?
+QRQ - As statement : Increase sending speed
+      As question  : Should I increase speed?
+QRS - As statement : Decrease sending speed
+      As question  : Should I decrease speed?
+QRT - As statement : Stop sending
+      As question  : Should I stop sending?
+QRU - As statement : I have nothing for you
+      As question  : Do you have anything for me?
+QRV - As statement : I am ready
+      As question  : Are you ready?
+QRX - As statement : I will call you again at <time>
+      As question  : When will you call again; usually minutes are implied here
+QRZ - As statement : You are being called by <callsign>
+      As question  : Who is calling me?
+QSB - As statement : Your signal is fading
+      As question  : Is my signal fading?
+QSK - As statement : I can hear you between signals/breaks
+      As question  : Can you hear me between signals/breaks, and if so, may I break in?
+QSL - As statement : I acknowledge receipt
+      As question  : Can you acknowledge receipt?
+QSO - As statement : I can communicate with <callsign> directly or through relay
+      As question  : Can you communicate with <callsign> directly or through relay?
+QSP - As statement : I will relay to <callsign>
+      As question  : Will you relay to <callsign>
+QST - As statement : General preamble to a message addressed to all operators, basically CQ ARRL
+      As question  : <Does not act as a question>
+QSX - As statement : I am listening to <callsign> on <frequency>
+      As question  : Will you listen to <callsign> on <frequency>
+QSY - As statement : Change to another frequency <optional frequency>
+      As question  : Should I change to another frequency, or change to <frequency>?
+QTC - As statement : I have <number> messages for you, or <callsign>
+      As question  : How many messages do you have to send?
+QTH - As statement : My location is <location>
+      As question  : What is your location?
+QTR - As statement : The time is <time>
+      As question  : What is the time?
+* Towers
+** Manufacturers
+Rohn
